@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:minHeight="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="64dp">
+
+    <Button
+        android:layout_width="@dimen/activity_refresh_button_width"
+        android:layout_height="@dimen/activity_refresh_button_height"
+        android:layout_gravity="right"
+        android:id="@+id/refresh_button"
+        style="?android:textAppearanceSmall"
+        android:textAllCaps="false"
+        android:layout_marginRight="@dimen/activity_refresh_button_right_margin"
+        android:background="@drawable/button_border"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFF"
+        android:text="@string/action_refresh"/>
+</android.support.v7.widget.Toolbar>
